@@ -1,0 +1,157 @@
+body {
+  background-color: #eaf4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #223;
+  margin: 0;
+  padding: 40px 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px 30px 35px 30px;
+  border-radius: 10px;
+  border: 2px solid #9ad1d4;
+}
+
+.card-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #006d77;
+  margin: 0 0 6px 0;
+}
+
+.subtitle {
+  color: #789;
+  font-size: 14px;
+  margin: 0;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+#taskInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  font-size: 15px;
+  border: 1px solid #9ad1d4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+#addTaskBtn {
+  background-color: #006d77;
+  color: #ffffff;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#addTaskBtn:hover {
+  background-color: #004f57;
+}
+
+#loadSamplesBtn {
+  background-color: #ffffff;
+  color: #006d77;
+  border: 1px solid #006d77;
+  padding: 9px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#loadSamplesBtn:hover {
+  background-color: #e0f2f1;
+}
+
+#taskMessage {
+  color: #c1121f;
+  font-size: 14px;
+  min-height: 18px;
+  margin: 8px 0;
+}
+
+.summary {
+  background-color: #f1fafa;
+  border: 1px solid #cde;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.summary span {
+  margin-right: 16px;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  background-color: #fbfefe;
+  border: 1px solid #cde;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.task-text {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #99a;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #bcd;
+  background-color: #ffffff;
+}
+
+.complete-btn:hover {
+  background-color: #d8f3dc;
+}
+
+.edit-btn:hover {
+  background-color: #fff3cd;
+}
+
+.remove-btn:hover {
+  background-color: #ffd6d6;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #006d77;
+  border-radius: 4px;
+  margin-right: 8px;
+}
